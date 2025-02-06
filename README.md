@@ -2,7 +2,7 @@
 
 ### **1. Definição dos** Objetivos **do Projeto**
 
-- **1.1 Escopo:** Desenvolvimento de Data Warehouse (banco de dados analítico) no Google Cloud Platform, a partir de amostra estática de dados de e-commerce’s providos pela Olist, para posterior análise e geração de insights acionáveis em relação ao acompanhamento e otimização da performance das lojas.
+- **1.1 Escopo:** Desenvolvimento de Data Warehouse (banco de dados analítico) no Google Cloud Platform, a partir de amostra estática de dados de e-commerce’s providos pela [Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data), para posterior análise e geração de insights acionáveis em relação ao acompanhamento e otimização da performance das lojas.
 
 - **1.2 Objetivos Específicos:**
     - Criação de uma camada “raw” (`raw_olist`) para carga de dados brutos.
