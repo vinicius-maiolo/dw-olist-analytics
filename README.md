@@ -13,13 +13,13 @@
 
 ### **2. Planejamento do Projeto**
 
-- **Análise de Requisitos:**
+- **2.1 Análise de Requisitos:**
     
-    2.1. [Identificar as fontes de dados disponíveis, compreender e documentar sua estrutura.](https://www.notion.so/Identificar-as-fontes-de-dados-dispon-veis-e-compreender-sua-estrutura-18f2330fc8a0803baa9be11234467027?pvs=21)
+    2.1.1 [Identificar as fontes de dados disponíveis, compreender e documentar sua estrutura.](https://www.notion.so/Identificar-as-fontes-de-dados-dispon-veis-e-compreender-sua-estrutura-18f2330fc8a0803baa9be11234467027?pvs=21)
     
-    2.2. [Definir os eventos (fatos) , contextos (dimensões) e análises (datasets) relevantes para os acompanhamentos de interesse.](https://www.notion.so/Definir-os-eventos-fatos-contextos-dimens-es-e-an-lises-datasets-relevantes-para-as-an-lises-18f2330fc8a080028a8bd957508f2300?pvs=21)
+    2.1.2. [Definir os eventos (fatos) , contextos (dimensões) e análises (datasets) relevantes para os acompanhamentos de interesse.](https://www.notion.so/Definir-os-eventos-fatos-contextos-dimens-es-e-an-lises-datasets-relevantes-para-as-an-lises-18f2330fc8a080028a8bd957508f2300?pvs=21)
     
-- **Cronograma:**
+- **2.2 Cronograma:**
     - **Semana 1:**
         
         [Preparação do ambiente no GCP e upload dos dados brutos (camada raw).](https://www.notion.so/Prepara-o-do-ambiente-no-GCP-e-upload-dos-dados-brutos-camada-raw-18f2330fc8a08051ac74d721aa7f3ff2?pvs=21)
