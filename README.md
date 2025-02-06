@@ -2,21 +2,22 @@
 
 ### **1. Definição dos** Objetivos **do Projeto**
 
-- **Escopo:** Desenvolvimento de Data Warehouse (banco de dados analítico) no Google Cloud Platform, a partir de amostra estática de dados de e-commerce’s providos pela Olist, para posterior análise e geração de insights acionáveis em relação ao acompanhamento e otimização da performance das lojas.
-- **Objetivos Específicos:**
+- **1.1 Escopo:** Desenvolvimento de Data Warehouse (banco de dados analítico) no Google Cloud Platform, a partir de amostra estática de dados de e-commerce’s providos pela Olist, para posterior análise e geração de insights acionáveis em relação ao acompanhamento e otimização da performance das lojas.
+
+- **1.2 Objetivos Específicos:**
     - Criação de uma camada “raw” (`raw_olist`) para carga de dados brutos.
     - Criação de uma camada "curated" (`curated_olist`) a partir dos dados brutos, com dados tipados, deduplicação de dados (se necessário) e colunas renomeadas.
     - Desenvolvimento do Data Warehouse (`dw_olist`), conjunto de tabelas que se relacionam a partir do conceito de modelagem dimensional, isto é, tabelas fato e dimensão.
     - Desenvolvimento de ao menos um dataset alimentado por tabelas fato e dimensões, ou seja, desenvolvimento de um dataset alimentado pelo dw.
-    - A partir desse dataset, elaborar visualizações no Power BI para gerar insights acionáveis sobre a performance de lojas.
+    - A partir desse dataset, elaborar visualizações no Power BI para gerar insights acionáveis sobre a performance de lojas virtuais.
 
 ### **2. Planejamento do Projeto**
 
 - **Análise de Requisitos:**
     
-    [Identificar as fontes de dados disponíveis e compreender sua estrutura.](https://www.notion.so/Identificar-as-fontes-de-dados-dispon-veis-e-compreender-sua-estrutura-18f2330fc8a0803baa9be11234467027?pvs=21)
+    2.1. [Identificar as fontes de dados disponíveis, compreender e documentar sua estrutura.](https://www.notion.so/Identificar-as-fontes-de-dados-dispon-veis-e-compreender-sua-estrutura-18f2330fc8a0803baa9be11234467027?pvs=21)
     
-    [Definir os eventos (fatos) , contextos (dimensões) e análises (datasets) relevantes para as análises desejadas.](https://www.notion.so/Definir-os-eventos-fatos-contextos-dimens-es-e-an-lises-datasets-relevantes-para-as-an-lises-18f2330fc8a080028a8bd957508f2300?pvs=21)
+    2.2. [Definir os eventos (fatos) , contextos (dimensões) e análises (datasets) relevantes para os acompanhamentos de interesse.](https://www.notion.so/Definir-os-eventos-fatos-contextos-dimens-es-e-an-lises-datasets-relevantes-para-as-an-lises-18f2330fc8a080028a8bd957508f2300?pvs=21)
     
 - **Cronograma:**
     - **Semana 1:**
@@ -40,11 +41,9 @@
 
 ### **3. Apresentação do Projeto**
 
-- **Preparação da Apresentação:**
-    - Desenvolver slides que resumam o projeto, destacando:
-        - Objetivos e escopo.
-        - Processo de desenvolvimento.
-        - Principais desafios e soluções adotadas.
-        - Insights obtidos a partir dos dashboards.
-- **Demonstração:**
-    - Apresentar os dashboards desenvolvidos no Power BI, enfatizando a capacidade de gerar insights acionáveis.
+- **3.1 Preparação da Visualização:**
+    - Desenvolveimento de dashboard em PowerBI, contemplando as análises e métricas de interesse.
+    
+
+- **3.2 Demonstração:**
+    - Apresentar os dashboards desenvolvidos no Power BI, enfatizando sua capacidade de gerar insights acionáveis.
