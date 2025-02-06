@@ -27,8 +27,6 @@ WITH metodos_pagamento_pedido as (
   GROUP BY 1,2
 )
 
---select * from metodos_pagamento_pedido where id_pedido = '1d251ab94983c4adb11e4b168abb1439'
-
 SELECT 
   o.order_id as id_pedido
   , oi.order_item_id as id_item_pedido
