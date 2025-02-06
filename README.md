@@ -1,5 +1,7 @@
 # Roadmap DW Olist
 
+[Link Notion](https://bitter-fedora-901.notion.site/Roadmap-DW-Olist-18f2330fc8a08023ab7bf3a99696b168)
+
 ### **1. Definição dos** Objetivos **do Projeto**
 
 - **1.1 Escopo:** Desenvolvimento de Data Warehouse (banco de dados analítico) no Google Cloud Platform (GCP), a partir de amostra estática de dados de e-commerce’s providos pela [Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data), para posterior análise e geração de insights acionáveis em relação ao acompanhamento e otimização da performance das lojas.
