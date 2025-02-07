@@ -16,6 +16,11 @@ CREATE OR REPLACE TABLE `olist-analytics.dw_olist.dts_performance_pedidos` AS
   , ft.timestamp_despacho
   , ft.timestamp_entrega
   , ft.data_prometida_entrega
+  , CASE
+      WHEN date(ft.timestamp_entrega) > ft.data_prometida_entrega
+      THEN 0 
+      ELSE 1
+    END as fl_entrega_no_prazo 
   , ft.valor_mercadoria
   , ft.valor_frete
   , ft.valor_produto
