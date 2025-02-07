@@ -1,6 +1,7 @@
 CREATE OR REPLACE TABLE `olist-analytics.dw_olist.dts_performance_pedidos` AS
   SELECT 
   concat(id_pedido, id_item_pedido, metodo_pagamento) as chv_pedido_item_metodo
+  , id_pedido
   , dp.id_produto -- idealmente, estaria  campo "nome_produto", porém não temos essa informação no banco
   , dp.categoria
   , dc.id_cliente -- id_geral do cliente dentro do banco
